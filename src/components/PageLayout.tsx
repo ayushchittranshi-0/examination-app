@@ -17,6 +17,7 @@ interface LayoutProps {
 }
 
 const Layout = dynamic<LayoutProps>(async () => {
+
     const LayoutComponent = ({ children }: LayoutProps) => {
         const [isCollapsed, setIsCollapsed] = useState(false);
         const pathname = usePathname();
