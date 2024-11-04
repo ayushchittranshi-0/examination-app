@@ -23,7 +23,6 @@ const Layout = dynamic<LayoutProps>(async () => {
         const pathname = usePathname();
 
         const navigationItems: NavigationItem[] = [
-            { name: 'Dashboard', icon: LayoutDashboard, path: '/' },
             { name: 'Templates', icon: BookOpen, path: '/templates' },
             { name: 'Question Papers', icon: Award, path: '/questionPapers' },
         ];
